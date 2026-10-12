@@ -20,8 +20,8 @@ import pandas as pd
 import openai
 from surprise import SVD, Dataset, Reader
 
-MY_TOKEN = 'TestToken'
-secret_key = 'TestSecretKey'
+MY_TOKEN = ''
+secret_key = ''
 
 client = openai.AsyncOpenAI(api_key=secret_key)
 
