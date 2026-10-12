@@ -20,8 +20,8 @@ import pandas as pd
 import openai
 from surprise import SVD, Dataset, Reader
 
-MY_TOKEN = 'MTUzODk0NjAzNDE5MTgzNTE1Nw.GzDgg-.t498HC7yNOS1SgO-QH-Zg7HgcCcNfsEotvfGNs'
-secret_key = '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'
+MY_TOKEN = 'TestToken'
+secret_key = 'TestSecretKey'
 
 client = openai.AsyncOpenAI(api_key=secret_key)
 
